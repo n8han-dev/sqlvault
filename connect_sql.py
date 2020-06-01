@@ -7,7 +7,8 @@ class Sql:
         print("connect")
 
     def conflict(self):
-        pass  # conflict
+        print("i want conflict with line 1")
+        print("i want conflict with line 2")
 
     def no_conflict(self):
         pass  # i don't conflict
