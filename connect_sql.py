@@ -1,9 +1,13 @@
+import mysql.connector
+
 
 class Sql:
 
     def connect(self):
-        print("connected")
+        print("connect")
 
-    def conflict(self, value):
-        print("i conflict", value)
+    def conflict(self):
+        pass  # conflict
 
+    def no_conflict(self):
+        pass  # i don't conflict
